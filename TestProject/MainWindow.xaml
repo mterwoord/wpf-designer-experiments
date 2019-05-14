@@ -6,6 +6,5 @@
         xmlns:local="clr-namespace:TestProject"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel LastChildFill="False"/>
 
 </Window>
