@@ -50,8 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Metadata.cs" />
-    <Compile Include="OurFeatureConnector.cs" />
-    <Compile Include="OurPlatformTypes.cs" />
+    <Compile Include="Old_OurFeatureConnector.cs" />
+    <Compile Include="Old_OurPlatformTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools\PickViewModelForm.cs">
       <SubType>Form</SubType>
@@ -68,11 +68,11 @@
     <Compile Include="Tools\SizeToParentControl.xaml.cs">
       <DependentUpon>SizeToParentControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UIElementCollectionExtensions.cs" />
-    <Compile Include="UtilitiesControl.xaml.cs">
-      <DependentUpon>UtilitiesControl.xaml</DependentUpon>
+    <Compile Include="Old_UIElementCollectionExtensions.cs" />
+    <Compile Include="Old_UtilitiesControl.xaml.cs">
+      <DependentUpon>Old_UtilitiesControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UtilityAdornerProvider.cs" />
+    <Compile Include="Old_UtilityAdornerProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Tools\SetDesignDataTypeControl.xaml">
@@ -87,7 +87,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="UtilitiesControl.xaml">
+    <Page Include="Old_UtilitiesControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
